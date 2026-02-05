@@ -80,16 +80,35 @@ function handleFormSubmit(event) {
   const service = String(formData.get("service") || "").trim();
   const details = String(formData.get("details") || "").trim();
 
+  const phoneDigits = phone.replace(/\D/g, "");
+  const hasValidPhone = phoneDigits.length >= 10;
+  const hasEmailShape = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+
   if (!name || !phone || !email || !service || !details) {
     feedback.textContent =
-      "Please complete every field so dispatch can route your request correctly.";
+      "Please fill out each field so we can route this correctly.";
+    feedback.classList.add("is-error");
+    feedback.classList.remove("is-success");
+    return;
+  }
+
+  if (!hasValidPhone) {
+    feedback.textContent =
+      "Please enter a working phone number so dispatch can reach you.";
+    feedback.classList.add("is-error");
+    feedback.classList.remove("is-success");
+    return;
+  }
+
+  if (!hasEmailShape) {
+    feedback.textContent = "Please enter a valid email address.";
     feedback.classList.add("is-error");
     feedback.classList.remove("is-success");
     return;
   }
 
   feedback.textContent =
-    "Request received. A coordinator will contact you shortly to confirm next steps.";
+    "Thanks — we received your request and will call you shortly.";
   feedback.classList.add("is-success");
   feedback.classList.remove("is-error");
   form.reset();
