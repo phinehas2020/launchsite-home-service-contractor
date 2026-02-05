@@ -1,351 +1,632 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aureline Home Systems | Precision Home Service, Engineered</title>
+    <meta
+      name="description"
+      content="Aureline Home Systems delivers elite HVAC, plumbing, electrical, and renovation services with engineering-grade precision, rapid response, and white-glove execution."
+    />
+    <meta name="theme-color" content="#0c0f14" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Aureline Home Systems | Precision Home Service, Engineered"
+    />
+    <meta
+      property="og:description"
+      content="Premium home systems service for critical properties: fast dispatch, transparent planning, and clean, accountable execution."
+    />
+    <meta
+      property="og:image"
+      content="https://images.unsplash.com/photo-1517581177682-a085bb7ffb15?auto=format&fit=crop&w=1600&q=80"
+    />
+    <meta property="og:url" content="https://aurelinehomesystems.com/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Aureline Home Systems" />
+    <meta
+      name="twitter:description"
+      content="Precision home service for high-performance homes."
+    />
+    <meta
+      name="twitter:image"
+      content="https://images.unsplash.com/photo-1517581177682-a085bb7ffb15?auto=format&fit=crop&w=1600&q=80"
+    />
+    <link rel="canonical" href="https://aurelinehomesystems.com/" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Metro Elite Contractors | Priority Home Services</title>
-    <meta name="description"
-        content="Priority home services for high-stakes properties. Licensed, insured, and engineered for fast response across the metro area.">
-
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,800&family=Instrument+Sans:wght@400;500;600;700&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Prata&display=swap"
+      rel="stylesheet"
+    />
 
-    <!-- Styles -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://unpkg.com/lucide@0.469.0/dist/umd/lucide.min.js"
+      defer
+    ></script>
+    <script src="js/main.js" defer></script>
 
-    <!-- Lucide Icons -->
-    <script src="https://unpkg.com/lucide@latest"></script>
-</head>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "HomeAndConstructionBusiness",
+        "name": "Aureline Home Systems",
+        "image": "https://images.unsplash.com/photo-1517581177682-a085bb7ffb15?auto=format&fit=crop&w=1600&q=80",
+        "url": "https://aurelinehomesystems.com/",
+        "telephone": "+1-555-012-3456",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "1450 Meridian Tower, Suite 600",
+          "addressLocality": "Metro City",
+          "addressRegion": "CA",
+          "postalCode": "90210",
+          "addressCountry": "US"
+        },
+        "areaServed": "Greater Metro Region",
+        "priceRange": "$$$",
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday",
+              "Sunday"
+            ],
+            "opens": "00:00",
+            "closes": "23:59"
+          }
+        ],
+        "sameAs": ["https://www.instagram.com/", "https://www.linkedin.com/"]
+      }
+    </script>
+  </head>
 
-<body>
-    <div class="grain-overlay"></div>
-    <div class="emergency-ribbon">
-        <div class="container ribbon-inner">
-            <span><i data-lucide="alert-triangle"></i> Priority Dispatch Open: 37 min average response</span>
-            <a href="tel:5550123">Call Priority Line <i data-lucide="phone"></i></a>
-        </div>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <div class="page-grain" aria-hidden="true"></div>
+
+    <div class="utility-bar">
+      <div class="container utility-inner">
+        <p class="utility-text">
+          <i data-lucide="clock-3" aria-hidden="true"></i> 24/7 priority
+          dispatch • 34-minute average arrival
+        </p>
+        <a class="utility-call" href="tel:+15550123456"
+          ><i data-lucide="phone" aria-hidden="true"></i>
+          +1&nbsp;(555)&nbsp;012&#8209;3456</a
+        >
+      </div>
     </div>
 
-    <header class="header">
-        <nav class="nav container">
-            <div class="logo">
-                <span class="logo-accent">METRO</span>ELITE
-            </div>
-            <ul class="nav-links">
-                <li><a href="#services">Services</a></li>
-                <li><a href="#process">Protocol</a></li>
-                <li><a href="#reviews">Proof</a></li>
-            </ul>
-            <div class="nav-cta">
-                <a href="tel:5550123" class="btn btn-primary">
-                    <i data-lucide="phone" class="icon-small"></i>
-                    (555) 012-3456
-                </a>
-            </div>
-            <button class="mobile-menu-btn" aria-label="Toggle Menu">
-                <i data-lucide="menu"></i>
-            </button>
+    <header class="site-header" data-header>
+      <div class="container nav-shell">
+        <a class="brand" href="#top" aria-label="Aureline Home Systems home">
+          <span class="brand-mark">AURELINE</span>
+          <span class="brand-sub">HOME SYSTEMS</span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          data-menu-toggle
+          aria-expanded="false"
+          aria-controls="primary-navigation"
+          aria-label="Toggle navigation"
+        >
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" id="primary-navigation" data-nav>
+          <a href="#services">Services</a>
+          <a href="#work">Projects</a>
+          <a href="#process">Protocol</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#contact" class="btn btn-small btn-primary">Start Project</a>
         </nav>
+      </div>
     </header>
 
-    <main>
-        <section class="hero">
-            <div class="container hero-grid">
-                <div class="hero-content">
-                    <div class="eyebrow">Priority Dispatch • Licensed & Insured • 24/7 Coverage</div>
-                    <h1 class="hero-title">Precision home services, delivered at metro speed.</h1>
-                    <p class="hero-subtitle">We protect HVAC, plumbing, and electrical systems in high-value homes with
-                        an engineering-first, white-glove process built for urgent response.</p>
-                    <div class="hero-actions">
-                        <a href="#quote" class="btn btn-xl btn-primary">Request Priority Visit</a>
-                        <a href="#services" class="btn btn-xl btn-secondary">See Service Menu</a>
-                    </div>
-                    <div class="hero-metrics">
-                        <div class="metric">
-                            <span class="metric-value num">15,240</span>
-                            <span class="metric-label">Projects completed</span>
-                        </div>
-                        <div class="metric">
-                            <span class="metric-value num">4.9 / 5</span>
-                            <span class="metric-label">Verified rating</span>
-                        </div>
-                        <div class="metric">
-                            <span class="metric-value num">120+</span>
-                            <span class="metric-label">Certified techs</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="hero-visual">
-                    <div class="image-stack">
-                        <div class="main-img-container">
-                            <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&q=80&w=1000"
-                                alt="Professional contractor inspecting equipment" class="hero-img">
-                            <div class="img-overlay"></div>
-                        </div>
-                        <div class="floating-card urgency-card">
-                            <i data-lucide="zap"></i>
-                            <div>
-                                <strong>Priority Window</strong>
-                                <span>3 crews in your zone</span>
-                            </div>
-                        </div>
-                        <div class="floating-card assurance-card">
-                            <i data-lucide="shield-check"></i>
-                            <div>
-                                <strong>Zero-Surprise Pricing</strong>
-                                <span>Fixed scope before work starts</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <main id="main-content">
+      <section class="hero" id="top">
+        <div class="container hero-layout">
+          <div class="hero-copy reveal-on-scroll">
+            <p class="eyebrow">Engineered Home Infrastructure</p>
+            <h1>
+              Service excellence for homes where failure is never acceptable.
+            </h1>
+            <p class="hero-lead">
+              We protect critical HVAC, plumbing, electrical, and living systems
+              for high-value properties through decisive response, technical
+              rigor, and immaculate on-site execution.
+            </p>
+
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="tel:+15550123456"
+                >Call&nbsp;Priority&nbsp;Dispatch</a
+              >
+              <a class="btn btn-ghost" href="#contact">Book Consultation</a>
             </div>
-        </section>
 
-        <section id="services" class="services">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Full-Stack Home Systems, One Elite Team.</h2>
-                    <p class="section-desc">We handle the critical systems that keep your home running, with precision
-                        planning and decisive field execution.</p>
-                </div>
+            <dl class="metric-grid">
+              <div class="metric-item">
+                <dt>Emergency arrival</dt>
+                <dd class="num" data-counter="34" data-suffix=" min">34 min</dd>
+              </div>
+              <div class="metric-item">
+                <dt>Projects completed</dt>
+                <dd class="num" data-counter="18470" data-suffix="+">
+                  18,470+
+                </dd>
+              </div>
+              <div class="metric-item">
+                <dt>Client satisfaction</dt>
+                <dd class="num" data-counter="99" data-suffix="%">99%</dd>
+              </div>
+            </dl>
+          </div>
 
-                <div class="services-grid">
-                    <article class="service-card">
-                        <div class="service-icon"><i data-lucide="thermometer"></i></div>
-                        <h3>Climate & Air Quality</h3>
-                        <p>High-efficiency HVAC installs, balanced airflow, and smart automation for consistent comfort.</p>
-                        <ul class="service-points">
-                            <li>Heat pumps and high-SEER systems</li>
-                            <li>Air quality testing and remediation</li>
-                        </ul>
-                        <a href="#" class="service-link">View capability <i data-lucide="arrow-right"></i></a>
-                    </article>
-                    <article class="service-card">
-                        <div class="service-icon"><i data-lucide="droplets"></i></div>
-                        <h3>Plumbing & Leak Response</h3>
-                        <p>Emergency leak control, tankless water, and pressure tuning for high-performance fixtures.</p>
-                        <ul class="service-points">
-                            <li>Same-day leak containment</li>
-                            <li>Premium fixture installation</li>
-                        </ul>
-                        <a href="#" class="service-link">View capability <i data-lucide="arrow-right"></i></a>
-                    </article>
-                    <article class="service-card">
-                        <div class="service-icon"><i data-lucide="zap"></i></div>
-                        <h3>Electrical & Power Resilience</h3>
-                        <p>Panel upgrades, surge protection, and EV charging built for modern power demand.</p>
-                        <ul class="service-points">
-                            <li>Load balancing and safety audits</li>
-                            <li>Generator readiness planning</li>
-                        </ul>
-                        <a href="#" class="service-link">View capability <i data-lucide="arrow-right"></i></a>
-                    </article>
-                    <article class="service-card">
-                        <div class="service-icon"><i data-lucide="home"></i></div>
-                        <h3>Whole-Home Automation</h3>
-                        <p>Integrated lighting, security, and climate control configured to your living routines.</p>
-                        <ul class="service-points">
-                            <li>Smart scenes and schedules</li>
-                            <li>Secure network setup</li>
-                        </ul>
-                        <a href="#" class="service-link">View capability <i data-lucide="arrow-right"></i></a>
-                    </article>
-                    <article class="service-card">
-                        <div class="service-icon"><i data-lucide="wrench"></i></div>
-                        <h3>Precision Remodeling</h3>
-                        <p>Focused upgrades in kitchens, baths, and utilities with premium finish standards.</p>
-                        <ul class="service-points">
-                            <li>Custom cabinetry installs</li>
-                            <li>Dust-controlled work zones</li>
-                        </ul>
-                        <a href="#" class="service-link">View capability <i data-lucide="arrow-right"></i></a>
-                    </article>
-                    <article class="service-card">
-                        <div class="service-icon"><i data-lucide="shield"></i></div>
-                        <h3>Preventive Care Plans</h3>
-                        <p>Seasonal inspections, priority scheduling, and lifecycle forecasting for critical systems.</p>
-                        <ul class="service-points">
-                            <li>30-point systems check</li>
-                            <li>Priority response access</li>
-                        </ul>
-                        <a href="#" class="service-link">View capability <i data-lucide="arrow-right"></i></a>
-                    </article>
-                </div>
-            </div>
-        </section>
+          <div class="hero-visual reveal-on-scroll">
+            <figure class="hero-image-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1517581177682-a085bb7ffb15?auto=format&fit=crop&w=1200&q=80"
+                alt="A home systems specialist reviewing a modern residential mechanical room"
+                fetchpriority="high"
+                width="1200"
+                height="1400"
+              />
+            </figure>
 
-        <section id="process" class="process">
-            <div class="container">
-                <div class="process-grid">
-                    <div class="process-text">
-                        <h2 class="section-title">The Elite Protocol.</h2>
-                        <p class="section-desc">Every deployment follows a precise, documented workflow built for
-                            consistency, accountability, and clean handoff.</p>
+            <article
+              class="hero-note hero-note-top"
+              aria-label="Service quality note"
+            >
+              <p>
+                Dedicated senior technician assigned from first call to final
+                verification.
+              </p>
+            </article>
 
-                        <div class="steps-list">
-                            <div class="step-item">
-                                <span class="step-num num">01</span>
-                                <div class="step-info">
-                                    <h4>Rapid Diagnosis</h4>
-                                    <p>Thermal imaging and acoustic sensing isolate issues with speed and accuracy.</p>
-                                </div>
-                            </div>
-                            <div class="step-item">
-                                <span class="step-num num">02</span>
-                                <div class="step-info">
-                                    <h4>Precision Plan</h4>
-                                    <p>Scope, cost, and timing are defined before work begins. No surprises.</p>
-                                </div>
-                            </div>
-                            <div class="step-item">
-                                <span class="step-num num">03</span>
-                                <div class="step-info">
-                                    <h4>On-Site Execution</h4>
-                                    <p>We arrive with the right parts, protect your home, and finish cleanly.</p>
-                                </div>
-                            </div>
-                            <div class="step-item">
-                                <span class="step-num num">04</span>
-                                <div class="step-info">
-                                    <h4>Quality Verification</h4>
-                                    <p>Systems are stress-tested and documented before closeout.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="process-image">
-                        <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&q=80&w=800"
-                            alt="Technician running diagnostics" class="rounded-img shadow-xl">
-                    </div>
-                </div>
-            </div>
-        </section>
+            <article
+              class="hero-note hero-note-bottom"
+              aria-label="Planning quality note"
+            >
+              <p>
+                Scope, timeline, and pricing locked before the first tool is
+                unpacked.
+              </p>
+            </article>
+          </div>
+        </div>
 
-        <section class="trust-bar">
-            <div class="container trust-flex">
-                <span class="trust-title">Certified & featured across the metro.</span>
-                <div class="logos">
-                    <span class="logo-placeholder">STATE LICENSED</span>
-                    <span class="logo-placeholder">BBB A+</span>
-                    <span class="logo-placeholder">URBAN LIVING</span>
-                    <span class="logo-placeholder">HOME PRO</span>
-                </div>
-            </div>
-        </section>
+        <div class="container trust-strip">
+          <p>
+            Licensed • Bonded • Insured • EPA Certified • Smart Home Certified •
+            Permit-Ready Operations
+          </p>
+        </div>
+      </section>
 
-        <section id="reviews" class="reviews">
-            <div class="container">
-                <div class="reviews-layout">
-                    <div class="reviews-content">
-                        <h2 class="section-title">Verified results for demanding homes.</h2>
-                        <p class="section-desc">We earn trust with decisive response and surgical quality. Every review is
-                            tied to a real project with documented outcomes.</p>
-                        <div class="review-stats num">4.9 star average from 1,200+ verified reviews</div>
-                    </div>
-                    <div class="testimonials">
-                        <div class="testimonial-card">
-                            <i data-lucide="quote" class="quote-icon"></i>
-                            <p>"AC failed during a heat wave. They arrived in 32 minutes, repaired on the first visit, and
-                                walked me through the full system check. Clean, focused, and professional."</p>
-                            <div class="testi-author">
-                                <strong>James Sterling</strong>
-                                <span>Highland Park District</span>
-                            </div>
-                        </div>
-                        <div class="testimonial-card">
-                            <i data-lucide="quote" class="quote-icon"></i>
-                            <p>"They coordinated with my building, handled permits, and replaced the entire panel in a day.
-                                The finish quality is exceptional, and the documentation is excellent."</p>
-                            <div class="testi-author">
-                                <strong>Elena Rodriguez</strong>
-                                <span>Downtown Loft Owner</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+      <section class="section services" id="services">
+        <div class="container">
+          <header class="section-header reveal-on-scroll">
+            <p class="eyebrow">Core Capabilities</p>
+            <h2>
+              Integrated service, orchestrated under one elite field team.
+            </h2>
+            <p>
+              Every service line shares one planning model, one quality
+              standard, and one accountable project lead.
+            </p>
+          </header>
 
-        <section class="service-area">
-            <div class="container coverage-grid">
-                <div class="area-text">
-                    <h3>Metro Deployment Zones</h3>
-                    <p>Priority coverage across the core with rapid response in Tier-1 districts. Ask about satellite
-                        scheduling for extended zones.</p>
-                </div>
-                <div class="area-stats">
-                    <div class="area-badge num"><i data-lucide="navigation"></i> 14 techs active now</div>
-                    <div class="coverage-list">
-                        <span>Downtown Core</span>
-                        <span>North Hills</span>
-                        <span>South Quay</span>
-                        <span>The Highlands</span>
-                        <span>West End</span>
-                        <span>River District</span>
-                    </div>
-                </div>
-            </div>
-        </section>
+          <div class="service-grid">
+            <article class="service-card reveal-on-scroll">
+              <span class="service-icon" aria-hidden="true"
+                ><i data-lucide="fan"></i
+              ></span>
+              <h3>HVAC Performance</h3>
+              <p>
+                High-efficiency installs, duct optimization, and emergency
+                cooling restoration.
+              </p>
+              <ul>
+                <li>Thermal balancing diagnostics</li>
+                <li>Multi-zone comfort calibration</li>
+              </ul>
+            </article>
 
-        <section id="quote" class="cta-section">
-            <div class="container cta-box">
-                <div class="cta-text">
-                    <h2>Secure a priority slot today.</h2>
-                    <p>Tell us your project scope and we will schedule a rapid-response visit.</p>
-                </div>
-                <div class="cta-buttons">
-                    <a href="tel:5550123" class="btn btn-xl btn-dark">Call Priority Line</a>
-                    <button class="btn btn-xl btn-outline">Schedule Online</button>
-                </div>
-            </div>
-        </section>
+            <article class="service-card reveal-on-scroll">
+              <span class="service-icon" aria-hidden="true"
+                ><i data-lucide="droplets"></i
+              ></span>
+              <h3>Advanced Plumbing</h3>
+              <p>
+                Leak localization, pressure correction, and whole-home water
+                system upgrades.
+              </p>
+              <ul>
+                <li>Acoustic leak tracing</li>
+                <li>Tankless retrofit execution</li>
+              </ul>
+            </article>
+
+            <article class="service-card reveal-on-scroll">
+              <span class="service-icon" aria-hidden="true"
+                ><i data-lucide="zap"></i
+              ></span>
+              <h3>Electrical Resilience</h3>
+              <p>
+                Panel modernization, power quality hardening, and EV charging
+                integration.
+              </p>
+              <ul>
+                <li>Load path safety audits</li>
+                <li>Surge and backup planning</li>
+              </ul>
+            </article>
+
+            <article class="service-card reveal-on-scroll">
+              <span class="service-icon" aria-hidden="true"
+                ><i data-lucide="shield-check"></i
+              ></span>
+              <h3>Preventive Programs</h3>
+              <p>
+                Quarterly inspections and predictive maintenance for
+                mission-critical home systems.
+              </p>
+              <ul>
+                <li>Seasonal readiness protocols</li>
+                <li>Priority call queue placement</li>
+              </ul>
+            </article>
+
+            <article class="service-card reveal-on-scroll">
+              <span class="service-icon" aria-hidden="true"
+                ><i data-lucide="house"></i
+              ></span>
+              <h3>Smart Living Systems</h3>
+              <p>
+                Unified climate, security, and lighting control mapped to your
+                routines.
+              </p>
+              <ul>
+                <li>Secure home network setup</li>
+                <li>Automation scene engineering</li>
+              </ul>
+            </article>
+
+            <article class="service-card reveal-on-scroll">
+              <span class="service-icon" aria-hidden="true"
+                ><i data-lucide="ruler"></i
+              ></span>
+              <h3>Precision Renovation</h3>
+              <p>
+                High-finish utility, kitchen, and bath upgrades with
+                dust-controlled execution.
+              </p>
+              <ul>
+                <li>Material-grade coordination</li>
+                <li>White-glove closeout standards</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section showcase" id="work">
+        <div class="container">
+          <header class="section-header reveal-on-scroll">
+            <p class="eyebrow">Featured Projects</p>
+            <h2>Complex property systems, restored and elevated.</h2>
+            <p>
+              Representative outcomes from homes that demand speed, precision,
+              and flawless finish quality.
+            </p>
+          </header>
+
+          <div class="showcase-grid">
+            <article class="project-card reveal-on-scroll">
+              <img
+                src="https://images.unsplash.com/photo-1556911220-bda9f7f7597e?auto=format&fit=crop&w=1000&q=80"
+                alt="Premium kitchen mechanical upgrade"
+                loading="lazy"
+                width="1000"
+                height="800"
+              />
+              <div class="project-copy">
+                <h3>Ridgeview Residence</h3>
+                <p>
+                  Multi-system HVAC and electrical modernization completed in 11
+                  days with zero schedule drift.
+                </p>
+              </div>
+            </article>
+
+            <article class="project-card reveal-on-scroll">
+              <img
+                src="https://images.unsplash.com/photo-1616486029423-aaa4789e8c9a?auto=format&fit=crop&w=1000&q=80"
+                alt="Modern living room with integrated automation"
+                loading="lazy"
+                width="1000"
+                height="800"
+              />
+              <div class="project-copy">
+                <h3>Skyline Penthouse</h3>
+                <p>
+                  Smart-home integration across lighting, security, and climate
+                  with one-touch scenes.
+                </p>
+              </div>
+            </article>
+
+            <article class="project-card reveal-on-scroll">
+              <img
+                src="https://images.unsplash.com/photo-1584622781564-1d987f7333c1?auto=format&fit=crop&w=1000&q=80"
+                alt="High-end bathroom renovation with premium fixtures"
+                loading="lazy"
+                width="1000"
+                height="800"
+              />
+              <div class="project-copy">
+                <h3>Westbridge Estate</h3>
+                <p>
+                  Plumbing rehabilitation and luxury bath retrofit with
+                  documented pressure and leak guarantees.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section process" id="process">
+        <div class="container process-layout">
+          <header class="section-header reveal-on-scroll">
+            <p class="eyebrow">Execution Framework</p>
+            <h2>One protocol. Zero ambiguity. Total accountability.</h2>
+          </header>
+
+          <ol class="process-list">
+            <li class="process-step reveal-on-scroll">
+              <h3><span class="num">01</span> Rapid Technical Diagnosis</h3>
+              <p>
+                On-site diagnostics combine thermal, acoustic, and electrical
+                testing to isolate root cause fast.
+              </p>
+            </li>
+            <li class="process-step reveal-on-scroll">
+              <h3><span class="num">02</span> Scope + Cost Lock</h3>
+              <p>
+                We define exact work boundaries, timeline, and pricing before
+                active execution starts.
+              </p>
+            </li>
+            <li class="process-step reveal-on-scroll">
+              <h3><span class="num">03</span> Clean-Room Field Delivery</h3>
+              <p>
+                Crews protect finishes, isolate dust, and complete work to
+                strict cleanliness checkpoints.
+              </p>
+            </li>
+            <li class="process-step reveal-on-scroll">
+              <h3><span class="num">04</span> Performance Verification</h3>
+              <p>
+                We stress-test systems, document outcomes, and deliver a
+                post-project reliability brief.
+              </p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section testimonials" id="reviews">
+        <div class="container">
+          <header class="section-header reveal-on-scroll">
+            <p class="eyebrow">Client Proof</p>
+            <h2>Trusted by owners who expect flawless execution.</h2>
+          </header>
+
+          <div class="testimonial-grid">
+            <blockquote class="testimonial reveal-on-scroll">
+              <p>
+                "Their team arrived in under 30 minutes during a severe heat
+                event and restored cooling before midnight. The process was
+                calm, technical, and deeply professional."
+              </p>
+              <cite>— Serena Patel, Parkline District</cite>
+            </blockquote>
+
+            <blockquote class="testimonial reveal-on-scroll">
+              <p>
+                "From permits to closeout documentation, every step was
+                transparent. Their electrical upgrade work was precise and
+                beautifully finished."
+              </p>
+              <cite>— Gabriel Morrison, Harbor Lofts</cite>
+            </blockquote>
+
+            <blockquote class="testimonial reveal-on-scroll">
+              <p>
+                "Aureline is now our standing partner for every preventative and
+                emergency systems need. They run operations like an aviation
+                crew."
+              </p>
+              <cite>— Laila Chen, North Crest Residence</cite>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <section class="section faq" aria-labelledby="faq-heading">
+        <div class="container faq-layout">
+          <h2 id="faq-heading" class="reveal-on-scroll">
+            Frequently asked by new clients.
+          </h2>
+
+          <details class="faq-item reveal-on-scroll">
+            <summary>Do you handle true after-hours emergencies?</summary>
+            <p>
+              Yes. Our dispatch runs continuously with rotating senior
+              technicians and zone-based crew positioning.
+            </p>
+          </details>
+
+          <details class="faq-item reveal-on-scroll">
+            <summary>How do you prevent pricing surprises?</summary>
+            <p>
+              We finalize scope and cost before execution and document any
+              change request before additional work.
+            </p>
+          </details>
+
+          <details class="faq-item reveal-on-scroll">
+            <summary>
+              Can you coordinate across multiple service categories?
+            </summary>
+            <p>
+              Yes. HVAC, plumbing, electrical, automation, and renovation teams
+              run under one integrated project plan.
+            </p>
+          </details>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="container contact-layout">
+          <div class="contact-copy reveal-on-scroll">
+            <p class="eyebrow">Request Priority Intake</p>
+            <h2>Tell us what needs attention. We respond fast.</h2>
+            <p>
+              Share your project or urgent issue and our team will reply with
+              next-step availability and scope planning options.
+            </p>
+            <ul class="contact-points">
+              <li>
+                <i data-lucide="phone-forwarded" aria-hidden="true"></i> Live
+                dispatch in under 60 seconds
+              </li>
+              <li>
+                <i data-lucide="badge-check" aria-hidden="true"></i> Licensed
+                specialists only
+              </li>
+              <li>
+                <i data-lucide="clipboard-check" aria-hidden="true"></i> Written
+                scope before execution
+              </li>
+            </ul>
+          </div>
+
+          <form
+            class="contact-form reveal-on-scroll"
+            data-contact-form
+            novalidate
+          >
+            <label>
+              Full Name
+              <input type="text" name="name" autocomplete="name" required />
+            </label>
+            <label>
+              Phone Number
+              <input type="tel" name="phone" autocomplete="tel" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" autocomplete="email" required />
+            </label>
+            <label>
+              Service Category
+              <select name="service" required>
+                <option value="">Select service</option>
+                <option>HVAC Performance</option>
+                <option>Advanced Plumbing</option>
+                <option>Electrical Resilience</option>
+                <option>Smart Living Systems</option>
+                <option>Precision Renovation</option>
+                <option>Preventive Program</option>
+              </select>
+            </label>
+            <label>
+              Project Details
+              <textarea name="details" rows="4" required></textarea>
+            </label>
+            <button class="btn btn-primary" type="submit">
+              Send Priority Request
+            </button>
+            <p class="form-feedback" data-form-feedback aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
     </main>
 
-    <footer class="footer">
-        <div class="container footer-grid">
-            <div class="footer-brand">
-                <div class="logo">
-                    <span class="logo-accent">METRO</span>ELITE
-                </div>
-                <p>Precision home services for demanding metropolitan properties.</p>
-            </div>
-            <div class="footer-links">
-                <h4>Services</h4>
-                <ul>
-                    <li><a href="#">HVAC & Climate</a></li>
-                    <li><a href="#">Plumbing & Leak Response</a></li>
-                    <li><a href="#">Electrical Systems</a></li>
-                    <li><a href="#">Preventive Care Plans</a></li>
-                </ul>
-            </div>
-            <div class="footer-contact">
-                <h4>Contact</h4>
-                <p>123 Metro Plaza, Suite 400</p>
-                <p>Support@metroelite.com</p>
-                <p>(555) 012-3456</p>
-            </div>
+    <footer class="site-footer">
+      <div class="container footer-layout">
+        <div>
+          <a
+            class="brand brand-footer"
+            href="#top"
+            aria-label="Aureline Home Systems home"
+          >
+            <span class="brand-mark">AURELINE</span>
+            <span class="brand-sub">HOME SYSTEMS</span>
+          </a>
+          <p>
+            Precision home systems service for properties that demand certainty.
+          </p>
         </div>
-        <div class="footer-bottom container">
-            <p>&copy; 2026 Metro Elite Contractors. All rights reserved.</p>
-            <div class="footer-legal">
-                <a href="#">Privacy</a>
-                <a href="#">Terms</a>
-                <a href="#">License #123456789</a>
-            </div>
+
+        <div>
+          <h3>Contact</h3>
+          <p>1450 Meridian Tower, Suite 600<br />Metro City, CA 90210</p>
+          <p>
+            <a href="mailto:priority@aurelinehomesystems.com"
+              >priority@aurelinehomesystems.com</a
+            >
+          </p>
+          <p>
+            <a href="tel:+15550123456">+1&nbsp;(555)&nbsp;012&#8209;3456</a>
+          </p>
         </div>
+
+        <div>
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#work">Projects</a></li>
+            <li><a href="#process">Protocol</a></li>
+            <li><a href="#contact">Consultation</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>
+          © <span data-current-year></span> Aureline Home Systems. All rights
+          reserved.
+        </p>
+        <div>
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#">License #CSLB-943812</a>
+        </div>
+      </div>
     </footer>
 
-    <a href="tel:5550123" class="floating-cta">
-        <i data-lucide="phone-call"></i>
-        <span>Urgent? Call Now</span>
+    <a
+      class="floating-call"
+      href="tel:+15550123456"
+      aria-label="Call Aureline Home Systems"
+    >
+      <i data-lucide="phone-call" aria-hidden="true"></i>
+      <span>Emergency&nbsp;Dispatch</span>
     </a>
-
-    <script src="js/main.js"></script>
-</body>
-
+  </body>
 </html>
